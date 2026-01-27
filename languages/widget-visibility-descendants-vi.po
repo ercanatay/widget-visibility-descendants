@@ -1,0 +1,68 @@
+# Vietnamese translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Hiển thị"
+
+msgid "Show"
+msgstr "Hiện"
+
+msgid "Hide"
+msgstr "Ẩn"
+
+msgid "if"
+msgstr "nếu"
+
+msgid "is"
+msgstr "là"
+
+msgid "Page"
+msgstr "Trang"
+
+msgid "Category"
+msgstr "Danh mục"
+
+msgid "Post Type"
+msgstr "Loại bài viết"
+
+msgid "Taxonomy"
+msgstr "Phân loại"
+
+msgid "Author"
+msgstr "Tác giả"
+
+msgid "Include children"
+msgstr "Bao gồm trang con"
+
+msgid "Include all descendants"
+msgstr "Bao gồm tất cả trang con"
+
+msgid "Match all conditions"
+msgstr "Khớp tất cả điều kiện"
+
+msgid "Add condition"
+msgstr "Thêm điều kiện"
+
+msgid "Remove"
+msgstr "Xóa"
+
+msgid "Done"
+msgstr "Xong"
+
+msgid "Delete"
+msgstr "Xóa"
+
+msgid "Select a page..."
+msgstr "Chọn trang..."
+
+msgid "Select a category..."
+msgstr "Chọn danh mục..."
+
+msgid "Configured"
+msgstr "Đã cấu hình"

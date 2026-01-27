@@ -1,0 +1,68 @@
+# Norwegian translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Synlighet"
+
+msgid "Show"
+msgstr "Vis"
+
+msgid "Hide"
+msgstr "Skjul"
+
+msgid "if"
+msgstr "hvis"
+
+msgid "is"
+msgstr "er"
+
+msgid "Page"
+msgstr "Side"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Post Type"
+msgstr "Innleggstype"
+
+msgid "Taxonomy"
+msgstr "Taksonomi"
+
+msgid "Author"
+msgstr "Forfatter"
+
+msgid "Include children"
+msgstr "Inkluder undersider"
+
+msgid "Include all descendants"
+msgstr "Inkluder alle undersider"
+
+msgid "Match all conditions"
+msgstr "Match alle betingelser"
+
+msgid "Add condition"
+msgstr "Legg til betingelse"
+
+msgid "Remove"
+msgstr "Fjern"
+
+msgid "Done"
+msgstr "Ferdig"
+
+msgid "Delete"
+msgstr "Slett"
+
+msgid "Select a page..."
+msgstr "Velg en side..."
+
+msgid "Select a category..."
+msgstr "Velg en kategori..."
+
+msgid "Configured"
+msgstr "Konfigurert"

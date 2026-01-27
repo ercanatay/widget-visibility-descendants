@@ -1,0 +1,68 @@
+# Russian translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Видимость"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Hide"
+msgstr "Скрыть"
+
+msgid "if"
+msgstr "если"
+
+msgid "is"
+msgstr "это"
+
+msgid "Page"
+msgstr "Страница"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Post Type"
+msgstr "Тип записи"
+
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Include children"
+msgstr "Включить дочерние"
+
+msgid "Include all descendants"
+msgstr "Включить всех потомков"
+
+msgid "Match all conditions"
+msgstr "Соответствовать всем условиям"
+
+msgid "Add condition"
+msgstr "Добавить условие"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Select a page..."
+msgstr "Выберите страницу..."
+
+msgid "Select a category..."
+msgstr "Выберите категорию..."
+
+msgid "Configured"
+msgstr "Настроено"

@@ -1,0 +1,68 @@
+# Dutch translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+msgid "Show"
+msgstr "Tonen"
+
+msgid "Hide"
+msgstr "Verbergen"
+
+msgid "if"
+msgstr "als"
+
+msgid "is"
+msgstr "is"
+
+msgid "Page"
+msgstr "Pagina"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Post Type"
+msgstr "Berichttype"
+
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+msgid "Author"
+msgstr "Auteur"
+
+msgid "Include children"
+msgstr "Inclusief kinderen"
+
+msgid "Include all descendants"
+msgstr "Inclusief alle afstammelingen"
+
+msgid "Match all conditions"
+msgstr "Voldoen aan alle voorwaarden"
+
+msgid "Add condition"
+msgstr "Voorwaarde toevoegen"
+
+msgid "Remove"
+msgstr "Verwijderen"
+
+msgid "Done"
+msgstr "Klaar"
+
+msgid "Delete"
+msgstr "Wissen"
+
+msgid "Select a page..."
+msgstr "Selecteer een pagina..."
+
+msgid "Select a category..."
+msgstr "Selecteer een categorie..."
+
+msgid "Configured"
+msgstr "Geconfigureerd"

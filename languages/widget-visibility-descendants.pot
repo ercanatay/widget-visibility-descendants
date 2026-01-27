@@ -1,0 +1,93 @@
+# Copyright (C) 2025 Ercan ATAY
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/ercanatay/widget-visibility-descendants/issues\n"
+"POT-Creation-Date: 2025-01-27 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-01-27 00:00:00+00:00\n"
+"Last-Translator: Ercan ATAY\n"
+"Language-Team: Ercan ATAY\n"
+
+#: includes/class-visibility-admin.php
+msgid "Visibility"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Show"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Hide"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "if"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "is"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Page"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Category"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Post Type"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Author"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Include children"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Include all descendants"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Match all conditions"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Add condition"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Remove"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Done"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Delete"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Select a page..."
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Select a category..."
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Configured"
+msgstr ""

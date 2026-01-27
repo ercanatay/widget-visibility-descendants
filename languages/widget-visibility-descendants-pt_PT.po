@@ -1,0 +1,68 @@
+# Portuguese (Portugal) translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Visibilidade"
+
+msgid "Show"
+msgstr "Mostrar"
+
+msgid "Hide"
+msgstr "Ocultar"
+
+msgid "if"
+msgstr "se"
+
+msgid "is"
+msgstr "é"
+
+msgid "Page"
+msgstr "Página"
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "Post Type"
+msgstr "Tipo de artigo"
+
+msgid "Taxonomy"
+msgstr "Taxonomia"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Include children"
+msgstr "Incluir filhos"
+
+msgid "Include all descendants"
+msgstr "Incluir todos os descendentes"
+
+msgid "Match all conditions"
+msgstr "Corresponder a todas as condições"
+
+msgid "Add condition"
+msgstr "Adicionar condição"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Done"
+msgstr "Concluído"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Select a page..."
+msgstr "Selecionar uma página..."
+
+msgid "Select a category..."
+msgstr "Selecionar uma categoria..."
+
+msgid "Configured"
+msgstr "Configurado"

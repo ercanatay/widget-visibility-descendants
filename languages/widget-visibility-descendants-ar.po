@@ -1,0 +1,68 @@
+# Arabic translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "الرؤية"
+
+msgid "Show"
+msgstr "إظهار"
+
+msgid "Hide"
+msgstr "إخفاء"
+
+msgid "if"
+msgstr "إذا"
+
+msgid "is"
+msgstr "هو"
+
+msgid "Page"
+msgstr "صفحة"
+
+msgid "Category"
+msgstr "تصنيف"
+
+msgid "Post Type"
+msgstr "نوع المنشور"
+
+msgid "Taxonomy"
+msgstr "التصنيف"
+
+msgid "Author"
+msgstr "الكاتب"
+
+msgid "Include children"
+msgstr "تضمين الصفحات الفرعية"
+
+msgid "Include all descendants"
+msgstr "تضمين جميع الصفحات الفرعية"
+
+msgid "Match all conditions"
+msgstr "مطابقة جميع الشروط"
+
+msgid "Add condition"
+msgstr "إضافة شرط"
+
+msgid "Remove"
+msgstr "إزالة"
+
+msgid "Done"
+msgstr "تم"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Select a page..."
+msgstr "اختر صفحة..."
+
+msgid "Select a category..."
+msgstr "اختر تصنيف..."
+
+msgid "Configured"
+msgstr "تم التكوين"

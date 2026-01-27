@@ -1,0 +1,68 @@
+# Thai translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "การมองเห็น"
+
+msgid "Show"
+msgstr "แสดง"
+
+msgid "Hide"
+msgstr "ซ่อน"
+
+msgid "if"
+msgstr "ถ้า"
+
+msgid "is"
+msgstr "คือ"
+
+msgid "Page"
+msgstr "หน้า"
+
+msgid "Category"
+msgstr "หมวดหมู่"
+
+msgid "Post Type"
+msgstr "ประเภทโพสต์"
+
+msgid "Taxonomy"
+msgstr "อนุกรมวิธาน"
+
+msgid "Author"
+msgstr "ผู้เขียน"
+
+msgid "Include children"
+msgstr "รวมหน้าลูก"
+
+msgid "Include all descendants"
+msgstr "รวมหน้าลูกทั้งหมด"
+
+msgid "Match all conditions"
+msgstr "ตรงกับทุกเงื่อนไข"
+
+msgid "Add condition"
+msgstr "เพิ่มเงื่อนไข"
+
+msgid "Remove"
+msgstr "ลบ"
+
+msgid "Done"
+msgstr "เสร็จ"
+
+msgid "Delete"
+msgstr "ลบ"
+
+msgid "Select a page..."
+msgstr "เลือกหน้า..."
+
+msgid "Select a category..."
+msgstr "เลือกหมวดหมู่..."
+
+msgid "Configured"
+msgstr "กำหนดค่าแล้ว"

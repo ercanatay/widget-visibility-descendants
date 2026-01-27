@@ -1,0 +1,68 @@
+# Finnish translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+msgid "Show"
+msgstr "Näytä"
+
+msgid "Hide"
+msgstr "Piilota"
+
+msgid "if"
+msgstr "jos"
+
+msgid "is"
+msgstr "on"
+
+msgid "Page"
+msgstr "Sivu"
+
+msgid "Category"
+msgstr "Kategoria"
+
+msgid "Post Type"
+msgstr "Julkaisutyyppi"
+
+msgid "Taxonomy"
+msgstr "Taksonomia"
+
+msgid "Author"
+msgstr "Kirjoittaja"
+
+msgid "Include children"
+msgstr "Sisällytä alasivut"
+
+msgid "Include all descendants"
+msgstr "Sisällytä kaikki alasivut"
+
+msgid "Match all conditions"
+msgstr "Täytä kaikki ehdot"
+
+msgid "Add condition"
+msgstr "Lisää ehto"
+
+msgid "Remove"
+msgstr "Poista"
+
+msgid "Done"
+msgstr "Valmis"
+
+msgid "Delete"
+msgstr "Poista"
+
+msgid "Select a page..."
+msgstr "Valitse sivu..."
+
+msgid "Select a category..."
+msgstr "Valitse kategoria..."
+
+msgid "Configured"
+msgstr "Määritetty"

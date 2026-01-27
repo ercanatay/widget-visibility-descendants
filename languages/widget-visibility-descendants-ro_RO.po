@@ -1,0 +1,68 @@
+# Romanian translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Vizibilitate"
+
+msgid "Show"
+msgstr "Afișează"
+
+msgid "Hide"
+msgstr "Ascunde"
+
+msgid "if"
+msgstr "dacă"
+
+msgid "is"
+msgstr "este"
+
+msgid "Page"
+msgstr "Pagină"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Post Type"
+msgstr "Tip articol"
+
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Include children"
+msgstr "Include subpagini"
+
+msgid "Include all descendants"
+msgstr "Include toți descendenții"
+
+msgid "Match all conditions"
+msgstr "Potrivește toate condițiile"
+
+msgid "Add condition"
+msgstr "Adaugă condiție"
+
+msgid "Remove"
+msgstr "Elimină"
+
+msgid "Done"
+msgstr "Gata"
+
+msgid "Delete"
+msgstr "Șterge"
+
+msgid "Select a page..."
+msgstr "Selectează o pagină..."
+
+msgid "Select a category..."
+msgstr "Selectează o categorie..."
+
+msgid "Configured"
+msgstr "Configurat"

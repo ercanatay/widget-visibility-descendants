@@ -1,0 +1,68 @@
+# Japanese translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "表示設定"
+
+msgid "Show"
+msgstr "表示"
+
+msgid "Hide"
+msgstr "非表示"
+
+msgid "if"
+msgstr "条件"
+
+msgid "is"
+msgstr "が"
+
+msgid "Page"
+msgstr "ページ"
+
+msgid "Category"
+msgstr "カテゴリー"
+
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+msgid "Taxonomy"
+msgstr "タクソノミー"
+
+msgid "Author"
+msgstr "著者"
+
+msgid "Include children"
+msgstr "子ページを含む"
+
+msgid "Include all descendants"
+msgstr "すべての子孫を含む"
+
+msgid "Match all conditions"
+msgstr "すべての条件に一致"
+
+msgid "Add condition"
+msgstr "条件を追加"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Done"
+msgstr "完了"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Select a page..."
+msgstr "ページを選択..."
+
+msgid "Select a category..."
+msgstr "カテゴリーを選択..."
+
+msgid "Configured"
+msgstr "設定済み"

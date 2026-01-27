@@ -1,0 +1,68 @@
+# Indonesian translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Visibilitas"
+
+msgid "Show"
+msgstr "Tampilkan"
+
+msgid "Hide"
+msgstr "Sembunyikan"
+
+msgid "if"
+msgstr "jika"
+
+msgid "is"
+msgstr "adalah"
+
+msgid "Page"
+msgstr "Halaman"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Post Type"
+msgstr "Tipe Pos"
+
+msgid "Taxonomy"
+msgstr "Taksonomi"
+
+msgid "Author"
+msgstr "Penulis"
+
+msgid "Include children"
+msgstr "Sertakan halaman anak"
+
+msgid "Include all descendants"
+msgstr "Sertakan semua turunan"
+
+msgid "Match all conditions"
+msgstr "Cocokkan semua kondisi"
+
+msgid "Add condition"
+msgstr "Tambah kondisi"
+
+msgid "Remove"
+msgstr "Hapus"
+
+msgid "Done"
+msgstr "Selesai"
+
+msgid "Delete"
+msgstr "Hapus"
+
+msgid "Select a page..."
+msgstr "Pilih halaman..."
+
+msgid "Select a category..."
+msgstr "Pilih kategori..."
+
+msgid "Configured"
+msgstr "Dikonfigurasi"

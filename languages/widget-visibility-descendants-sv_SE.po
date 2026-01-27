@@ -1,0 +1,68 @@
+# Swedish translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Synlighet"
+
+msgid "Show"
+msgstr "Visa"
+
+msgid "Hide"
+msgstr "Dölj"
+
+msgid "if"
+msgstr "om"
+
+msgid "is"
+msgstr "är"
+
+msgid "Page"
+msgstr "Sida"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Post Type"
+msgstr "Inläggstyp"
+
+msgid "Taxonomy"
+msgstr "Taxonomi"
+
+msgid "Author"
+msgstr "Författare"
+
+msgid "Include children"
+msgstr "Inkludera undersidor"
+
+msgid "Include all descendants"
+msgstr "Inkludera alla undersidor"
+
+msgid "Match all conditions"
+msgstr "Matcha alla villkor"
+
+msgid "Add condition"
+msgstr "Lägg till villkor"
+
+msgid "Remove"
+msgstr "Ta bort"
+
+msgid "Done"
+msgstr "Klar"
+
+msgid "Delete"
+msgstr "Radera"
+
+msgid "Select a page..."
+msgstr "Välj en sida..."
+
+msgid "Select a category..."
+msgstr "Välj en kategori..."
+
+msgid "Configured"
+msgstr "Konfigurerad"

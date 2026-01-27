@@ -1,0 +1,76 @@
+# Turkish translation for Widget Visibility with Descendants
+# Copyright (C) 2025 Ercan ATAY
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/ercanatay/widget-visibility-descendants/issues\n"
+"POT-Creation-Date: 2025-01-27 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-01-27 00:00:00+00:00\n"
+"Last-Translator: Ercan ATAY\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Visibility"
+msgstr "Görünürlük"
+
+msgid "Show"
+msgstr "Göster"
+
+msgid "Hide"
+msgstr "Gizle"
+
+msgid "if"
+msgstr "eğer"
+
+msgid "is"
+msgstr "ise"
+
+msgid "Page"
+msgstr "Sayfa"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Post Type"
+msgstr "Yazı Türü"
+
+msgid "Taxonomy"
+msgstr "Taksonomi"
+
+msgid "Author"
+msgstr "Yazar"
+
+msgid "Include children"
+msgstr "Alt sayfaları dahil et"
+
+msgid "Include all descendants"
+msgstr "Tüm alt sayfaları dahil et"
+
+msgid "Match all conditions"
+msgstr "Tüm koşulları eşleştir"
+
+msgid "Add condition"
+msgstr "Koşul ekle"
+
+msgid "Remove"
+msgstr "Kaldır"
+
+msgid "Done"
+msgstr "Tamam"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "Select a page..."
+msgstr "Sayfa seçin..."
+
+msgid "Select a category..."
+msgstr "Kategori seçin..."
+
+msgid "Configured"
+msgstr "Yapılandırıldı"

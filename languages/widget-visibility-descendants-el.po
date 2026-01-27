@@ -1,0 +1,68 @@
+# Greek translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Ορατότητα"
+
+msgid "Show"
+msgstr "Εμφάνιση"
+
+msgid "Hide"
+msgstr "Απόκρυψη"
+
+msgid "if"
+msgstr "αν"
+
+msgid "is"
+msgstr "είναι"
+
+msgid "Page"
+msgstr "Σελίδα"
+
+msgid "Category"
+msgstr "Κατηγορία"
+
+msgid "Post Type"
+msgstr "Τύπος άρθρου"
+
+msgid "Taxonomy"
+msgstr "Ταξινομία"
+
+msgid "Author"
+msgstr "Συγγραφέας"
+
+msgid "Include children"
+msgstr "Συμπερίληψη υποσελίδων"
+
+msgid "Include all descendants"
+msgstr "Συμπερίληψη όλων των υποσελίδων"
+
+msgid "Match all conditions"
+msgstr "Αντιστοίχιση όλων των συνθηκών"
+
+msgid "Add condition"
+msgstr "Προσθήκη συνθήκης"
+
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+msgid "Done"
+msgstr "Έγινε"
+
+msgid "Delete"
+msgstr "Διαγραφή"
+
+msgid "Select a page..."
+msgstr "Επιλέξτε σελίδα..."
+
+msgid "Select a category..."
+msgstr "Επιλέξτε κατηγορία..."
+
+msgid "Configured"
+msgstr "Διαμορφώθηκε"

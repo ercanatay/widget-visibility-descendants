@@ -1,0 +1,68 @@
+# Hindi translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "दृश्यता"
+
+msgid "Show"
+msgstr "दिखाएं"
+
+msgid "Hide"
+msgstr "छुपाएं"
+
+msgid "if"
+msgstr "अगर"
+
+msgid "is"
+msgstr "है"
+
+msgid "Page"
+msgstr "पृष्ठ"
+
+msgid "Category"
+msgstr "श्रेणी"
+
+msgid "Post Type"
+msgstr "पोस्ट प्रकार"
+
+msgid "Taxonomy"
+msgstr "वर्गीकरण"
+
+msgid "Author"
+msgstr "लेखक"
+
+msgid "Include children"
+msgstr "उप-पृष्ठ शामिल करें"
+
+msgid "Include all descendants"
+msgstr "सभी वंशज शामिल करें"
+
+msgid "Match all conditions"
+msgstr "सभी शर्तें मिलाएं"
+
+msgid "Add condition"
+msgstr "शर्त जोड़ें"
+
+msgid "Remove"
+msgstr "हटाएं"
+
+msgid "Done"
+msgstr "हो गया"
+
+msgid "Delete"
+msgstr "मिटाएं"
+
+msgid "Select a page..."
+msgstr "पृष्ठ चुनें..."
+
+msgid "Select a category..."
+msgstr "श्रेणी चुनें..."
+
+msgid "Configured"
+msgstr "कॉन्फ़िगर किया गया"

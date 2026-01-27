@@ -1,0 +1,68 @@
+# Slovak translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Viditeľnosť"
+
+msgid "Show"
+msgstr "Zobraziť"
+
+msgid "Hide"
+msgstr "Skryť"
+
+msgid "if"
+msgstr "ak"
+
+msgid "is"
+msgstr "je"
+
+msgid "Page"
+msgstr "Stránka"
+
+msgid "Category"
+msgstr "Kategória"
+
+msgid "Post Type"
+msgstr "Typ príspevku"
+
+msgid "Taxonomy"
+msgstr "Taxonómia"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Include children"
+msgstr "Zahrnúť podstránky"
+
+msgid "Include all descendants"
+msgstr "Zahrnúť všetkých potomkov"
+
+msgid "Match all conditions"
+msgstr "Splniť všetky podmienky"
+
+msgid "Add condition"
+msgstr "Pridať podmienku"
+
+msgid "Remove"
+msgstr "Odstrániť"
+
+msgid "Done"
+msgstr "Hotovo"
+
+msgid "Delete"
+msgstr "Zmazať"
+
+msgid "Select a page..."
+msgstr "Vyberte stránku..."
+
+msgid "Select a category..."
+msgstr "Vyberte kategóriu..."
+
+msgid "Configured"
+msgstr "Nakonfigurované"

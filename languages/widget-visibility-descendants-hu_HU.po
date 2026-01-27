@@ -1,0 +1,68 @@
+# Hungarian translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Láthatóság"
+
+msgid "Show"
+msgstr "Megjelenítés"
+
+msgid "Hide"
+msgstr "Elrejtés"
+
+msgid "if"
+msgstr "ha"
+
+msgid "is"
+msgstr "az"
+
+msgid "Page"
+msgstr "Oldal"
+
+msgid "Category"
+msgstr "Kategória"
+
+msgid "Post Type"
+msgstr "Bejegyzés típus"
+
+msgid "Taxonomy"
+msgstr "Taxonómia"
+
+msgid "Author"
+msgstr "Szerző"
+
+msgid "Include children"
+msgstr "Aloldalak belefoglalása"
+
+msgid "Include all descendants"
+msgstr "Összes aloldal belefoglalása"
+
+msgid "Match all conditions"
+msgstr "Minden feltétel egyezzen"
+
+msgid "Add condition"
+msgstr "Feltétel hozzáadása"
+
+msgid "Remove"
+msgstr "Eltávolítás"
+
+msgid "Done"
+msgstr "Kész"
+
+msgid "Delete"
+msgstr "Törlés"
+
+msgid "Select a page..."
+msgstr "Válasszon oldalt..."
+
+msgid "Select a category..."
+msgstr "Válasszon kategóriát..."
+
+msgid "Configured"
+msgstr "Beállítva"

@@ -1,0 +1,68 @@
+# Ukrainian translation for Widget Visibility with Descendants
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Visibility with Descendants 1.0.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility"
+msgstr "Видимість"
+
+msgid "Show"
+msgstr "Показати"
+
+msgid "Hide"
+msgstr "Приховати"
+
+msgid "if"
+msgstr "якщо"
+
+msgid "is"
+msgstr "є"
+
+msgid "Page"
+msgstr "Сторінка"
+
+msgid "Category"
+msgstr "Категорія"
+
+msgid "Post Type"
+msgstr "Тип запису"
+
+msgid "Taxonomy"
+msgstr "Таксономія"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Include children"
+msgstr "Включити дочірні"
+
+msgid "Include all descendants"
+msgstr "Включити всіх нащадків"
+
+msgid "Match all conditions"
+msgstr "Відповідати всім умовам"
+
+msgid "Add condition"
+msgstr "Додати умову"
+
+msgid "Remove"
+msgstr "Видалити"
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "Delete"
+msgstr "Видалити"
+
+msgid "Select a page..."
+msgstr "Виберіть сторінку..."
+
+msgid "Select a category..."
+msgstr "Виберіть категорію..."
+
+msgid "Configured"
+msgstr "Налаштовано"
