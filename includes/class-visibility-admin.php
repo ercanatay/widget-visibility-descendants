@@ -89,9 +89,11 @@ class WVD_Visibility_Admin {
         foreach ($pages as $page) {
             $depth = count(get_post_ancestors($page->ID));
             $prefix = str_repeat('— ', $depth);
+            // Sanitize titles before sending to the admin UI to avoid XSS via stored content.
+            $title = sanitize_text_field($page->post_title);
             $options[] = [
                 'id' => $page->ID,
-                'title' => $prefix . $page->post_title,
+                'title' => $prefix . $title,
                 'parent' => $page->post_parent,
                 'hasChildren' => (bool) get_children(['post_parent' => $page->ID, 'post_type' => 'page', 'numberposts' => 1]),
             ];
@@ -119,9 +121,11 @@ class WVD_Visibility_Admin {
                 $parent = $parent_cat ? $parent_cat->parent : 0;
             }
             $prefix = str_repeat('— ', $depth);
+            // Sanitize category names before localizing to JS to prevent XSS.
+            $name = sanitize_text_field($cat->name);
             $options[] = [
                 'id' => $cat->term_id,
-                'title' => $prefix . $cat->name,
+                'title' => $prefix . $name,
                 'parent' => $cat->parent,
                 'hasChildren' => (bool) get_categories(['parent' => $cat->term_id, 'hide_empty' => false, 'number' => 1]),
             ];
@@ -141,7 +145,7 @@ class WVD_Visibility_Admin {
             if ($pt->name === 'attachment') continue;
             $options[] = [
                 'id' => $pt->name,
-                'title' => $pt->labels->singular_name,
+                'title' => sanitize_text_field($pt->labels->singular_name),
             ];
         }
 
