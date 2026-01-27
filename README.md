@@ -4,7 +4,7 @@
 **Tags:** widget, visibility, descendants, grandchildren, pages
 **Requires at least:** 5.2
 **Tested up to:** 6.9
-**Stable tag:** 1.1.0
+**Stable tag:** 1.1.1
 **Requires PHP:** 7.4
 **License:** GPLv2 or later
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
@@ -144,6 +144,12 @@ No. The visibility checks are very lightweight and only run when widgets are bei
 This plugin works with classic widgets. For block-based widget areas, the visibility controls appear in the widget settings.
 
 ## Changelog
+
+### 1.1.1 (2025-01-27)
+- Security: Added XSS sanitization for page/category/post type titles
+- Security: Added DoS protection with rule type whitelist
+- Security: Limited maximum rules to 50 to prevent resource exhaustion
+- Security: Limited value length to 100 characters to prevent database bloat
 
 ### 1.1.0 (2025-01-27)
 - Added 30 language translations
