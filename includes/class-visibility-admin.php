@@ -199,6 +199,11 @@ class WVD_Visibility_Admin {
 
     /**
      * Sanitize visibility data
+     *
+     * Security hardening:
+     * - Whitelist allowed rule types to prevent injection
+     * - Limit rules to 50 max to prevent DoS/resource exhaustion
+     * - Limit value length to 100 characters to prevent database bloat
      */
     private function sanitize_visibility_data($data) {
         if (!is_array($data)) {
@@ -206,25 +211,57 @@ class WVD_Visibility_Admin {
         }
 
         $sanitized = [
-            'action' => isset($data['action']) && in_array($data['action'], ['show', 'hide']) ? $data['action'] : 'show',
+            'action' => isset($data['action']) && in_array($data['action'], ['show', 'hide'], true) ? $data['action'] : 'show',
             'match_all' => !empty($data['match_all']),
             'rules' => [],
         ];
 
+        // Whitelist of allowed rule types for security
+        $allowed_types = [
+            'page', 'category', 'post_type', 'front_page', 'blog',
+            'archive', 'search', '404', 'single', 'logged_in', 'logged_out',
+            'taxonomy', 'author'
+        ];
+
+        // Maximum number of rules to prevent DoS
+        $max_rules = 50;
+
+        // Maximum value length to prevent database bloat
+        $max_value_length = 100;
+
         if (!empty($data['rules']) && is_array($data['rules'])) {
+            $count = 0;
             foreach ($data['rules'] as $rule) {
+                // Enforce rule limit
+                if ($count >= $max_rules) {
+                    break;
+                }
+
                 if (!isset($rule['type']) || !isset($rule['value'])) {
                     continue;
                 }
 
+                // Sanitize and validate type against whitelist
+                $type = sanitize_key($rule['type']);
+                if (!in_array($type, $allowed_types, true)) {
+                    continue;
+                }
+
+                // Sanitize and limit value length
+                $value = sanitize_text_field($rule['value']);
+                if (strlen($value) > $max_value_length) {
+                    $value = substr($value, 0, $max_value_length);
+                }
+
                 $sanitized_rule = [
-                    'type' => sanitize_key($rule['type']),
-                    'value' => sanitize_text_field($rule['value']),
+                    'type' => $type,
+                    'value' => $value,
                     'include_children' => !empty($rule['include_children']),
                     'include_descendants' => !empty($rule['include_descendants']),
                 ];
 
                 $sanitized['rules'][] = $sanitized_rule;
+                $count++;
             }
         }
 
