@@ -173,7 +173,7 @@ class WVD_Visibility_Admin {
                 <input type="hidden"
                        name="<?php echo esc_attr($widget->get_field_name('wvd_visibility')); ?>"
                        class="wvd-visibility-data"
-                       value="<?php echo esc_attr(json_encode($visibility)); ?>">
+                       value="<?php echo esc_attr(wp_json_encode($visibility)); ?>">
 
                 <div class="wvd-visibility-content">
                     <!-- JavaScript will render the UI here -->
@@ -187,6 +187,11 @@ class WVD_Visibility_Admin {
      * Save visibility settings
      */
     public function save_visibility_settings($instance, $new_instance, $old_instance, $widget) {
+        // Security: Verify user has permission to manage widgets
+        if (!current_user_can('edit_theme_options')) {
+            return $instance;
+        }
+
         if (isset($new_instance['wvd_visibility'])) {
             $data = $new_instance['wvd_visibility'];
             if (is_string($data)) {
