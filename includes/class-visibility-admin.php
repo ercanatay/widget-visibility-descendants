@@ -195,7 +195,7 @@ class WVD_Visibility_Admin {
         if (isset($new_instance['wvd_visibility'])) {
             $data = $new_instance['wvd_visibility'];
             if (is_string($data)) {
-                $data = json_decode(stripslashes($data), true);
+                $data = json_decode(wp_unslash($data), true);
             }
             $instance['wvd_visibility'] = $this->sanitize_visibility_data($data);
         }
