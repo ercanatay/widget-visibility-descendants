@@ -246,6 +246,11 @@ class WVD_Visibility_Admin {
                     continue;
                 }
 
+                // Ensure type and value are strings
+                if (!is_string($rule['type']) || !is_string($rule['value'])) {
+                    continue;
+                }
+
                 // Sanitize and validate type against whitelist
                 $type = sanitize_key($rule['type']);
                 if (!in_array($type, $allowed_types, true)) {
