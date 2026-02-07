@@ -145,10 +145,12 @@ This plugin works with classic widgets. For block-based widget areas, the visibi
 
 ## Changelog
 
-### 1.1.3 (2026-02-06)
-- Fixed: Prevented duplicate admin event bindings causing multiple actions per click
-- Fixed: Removed unsupported `taxonomy` and `author` rule types from sanitization whitelist
-- Fixed: Frontend now ignores unsupported legacy rule types and keeps widget visibility unchanged when no valid rules remain
+### 1.1.3 (2026-02-07)
+- Fix: Category visibility type safety — cast `get_ancestors()` results to int for reliable strict comparison
+- i18n: Complete internationalization of admin JS by replacing hardcoded English labels with `wvdData.i18n.*` references
+- i18n: Add missing rule type translation keys (Front Page, Blog, Archive, Search, 404, Single Post, Logged In, Logged Out, Select a post type, Configured)
+- Security: Remove unimplemented `taxonomy` and `author` from allowed rule types whitelist
+- Updated translation template (.pot) with new strings
 
 ### 1.1.2 (2025-01-27)
 - Security: Replaced json_encode with wp_json_encode for better WordPress compatibility
