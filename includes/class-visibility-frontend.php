@@ -154,6 +154,7 @@ class WVD_Visibility_Frontend {
             // Include descendants
             if ($include_descendants) {
                 $ancestors = get_ancestors($current_cat->term_id, 'category');
+                $ancestors = array_map('intval', $ancestors);
                 return in_array($cat_id, $ancestors, true);
             }
 
@@ -175,6 +176,7 @@ class WVD_Visibility_Frontend {
             if ($include_children || $include_descendants) {
                 foreach ($post_categories as $post_cat_id) {
                     $ancestors = get_ancestors($post_cat_id, 'category');
+                    $ancestors = array_map('intval', $ancestors);
 
                     if ($include_descendants && in_array($cat_id, $ancestors, true)) {
                         return true;

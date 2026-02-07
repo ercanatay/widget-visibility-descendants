@@ -45,11 +45,39 @@ msgid "Post Type"
 msgstr ""
 
 #: includes/class-visibility-admin.php
-msgid "Taxonomy"
+msgid "Front Page"
 msgstr ""
 
 #: includes/class-visibility-admin.php
-msgid "Author"
+msgid "Blog"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Archive"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Search"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "404"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Single Post"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Logged In"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Logged Out"
+msgstr ""
+
+#: includes/class-visibility-admin.php
+msgid "Select a post type..."
 msgstr ""
 
 #: includes/class-visibility-admin.php

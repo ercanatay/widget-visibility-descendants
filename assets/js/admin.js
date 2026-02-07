@@ -119,14 +119,14 @@
         html += '<option value="page"' + (rule.type === 'page' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.page) + '</option>';
         html += '<option value="category"' + (rule.type === 'category' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.category) + '</option>';
         html += '<option value="post_type"' + (rule.type === 'post_type' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.postType) + '</option>';
-        html += '<option value="front_page"' + (rule.type === 'front_page' ? ' selected' : '') + '>Front Page</option>';
-        html += '<option value="blog"' + (rule.type === 'blog' ? ' selected' : '') + '>Blog</option>';
-        html += '<option value="archive"' + (rule.type === 'archive' ? ' selected' : '') + '>Archive</option>';
-        html += '<option value="search"' + (rule.type === 'search' ? ' selected' : '') + '>Search</option>';
-        html += '<option value="404"' + (rule.type === '404' ? ' selected' : '') + '>404</option>';
-        html += '<option value="single"' + (rule.type === 'single' ? ' selected' : '') + '>Single Post</option>';
-        html += '<option value="logged_in"' + (rule.type === 'logged_in' ? ' selected' : '') + '>Logged In</option>';
-        html += '<option value="logged_out"' + (rule.type === 'logged_out' ? ' selected' : '') + '>Logged Out</option>';
+        html += '<option value="front_page"' + (rule.type === 'front_page' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.frontPage) + '</option>';
+        html += '<option value="blog"' + (rule.type === 'blog' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.blog) + '</option>';
+        html += '<option value="archive"' + (rule.type === 'archive' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.archive) + '</option>';
+        html += '<option value="search"' + (rule.type === 'search' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.search) + '</option>';
+        html += '<option value="404"' + (rule.type === '404' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.notFound) + '</option>';
+        html += '<option value="single"' + (rule.type === 'single' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.single) + '</option>';
+        html += '<option value="logged_in"' + (rule.type === 'logged_in' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.loggedIn) + '</option>';
+        html += '<option value="logged_out"' + (rule.type === 'logged_out' ? ' selected' : '') + '>' + escapeHtml(wvdData.i18n.loggedOut) + '</option>';
         html += '</select>';
 
         // Label
@@ -163,7 +163,7 @@
                 break;
             case 'post_type':
                 items = wvdData.postTypes;
-                placeholder = 'Select...';
+                placeholder = escapeHtml(wvdData.i18n.selectPostType);
                 break;
             default:
                 return '<span class="wvd-rule-value-na">—</span>';
@@ -351,10 +351,10 @@
         if (hasRules) {
             if ($status.length === 0) {
                 $wrapper.find('.wvd-visibility-toggle').append(
-                    '<span class="wvd-visibility-status wvd-has-rules">Configured</span>'
+                    '<span class="wvd-visibility-status wvd-has-rules">' + escapeHtml(wvdData.i18n.configured) + '</span>'
                 );
             } else {
-                $status.addClass('wvd-has-rules').text('Configured');
+                $status.addClass('wvd-has-rules').text(wvdData.i18n.configured);
             }
         } else {
             $status.remove();

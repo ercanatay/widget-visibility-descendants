@@ -61,8 +61,16 @@ class WVD_Visibility_Admin {
                 'page' => __('Page', 'widget-visibility-descendants'),
                 'category' => __('Category', 'widget-visibility-descendants'),
                 'postType' => __('Post Type', 'widget-visibility-descendants'),
-                'taxonomy' => __('Taxonomy', 'widget-visibility-descendants'),
-                'author' => __('Author', 'widget-visibility-descendants'),
+                'frontPage' => __('Front Page', 'widget-visibility-descendants'),
+                'blog' => __('Blog', 'widget-visibility-descendants'),
+                'archive' => __('Archive', 'widget-visibility-descendants'),
+                'search' => __('Search', 'widget-visibility-descendants'),
+                'notFound' => __('404', 'widget-visibility-descendants'),
+                'single' => __('Single Post', 'widget-visibility-descendants'),
+                'loggedIn' => __('Logged In', 'widget-visibility-descendants'),
+                'loggedOut' => __('Logged Out', 'widget-visibility-descendants'),
+                'selectPostType' => __('Select a post type...', 'widget-visibility-descendants'),
+                'configured' => __('Configured', 'widget-visibility-descendants'),
                 'includeChildren' => __('Include children', 'widget-visibility-descendants'),
                 'includeDescendants' => __('Include all descendants', 'widget-visibility-descendants'),
                 'matchAll' => __('Match all conditions', 'widget-visibility-descendants'),
@@ -224,8 +232,7 @@ class WVD_Visibility_Admin {
         // Whitelist of allowed rule types for security
         $allowed_types = [
             'page', 'category', 'post_type', 'front_page', 'blog',
-            'archive', 'search', '404', 'single', 'logged_in', 'logged_out',
-            'taxonomy', 'author'
+            'archive', 'search', '404', 'single', 'logged_in', 'logged_out'
         ];
 
         // Maximum number of rules to prevent DoS
