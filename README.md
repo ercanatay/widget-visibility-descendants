@@ -4,7 +4,7 @@
 **Tags:** widget, visibility, descendants, grandchildren, pages
 **Requires at least:** 5.2
 **Tested up to:** 6.9
-**Stable tag:** 1.1.2
+**Stable tag:** 1.1.3
 **Requires PHP:** 7.4
 **License:** GPLv2 or later
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
@@ -144,6 +144,13 @@ No. The visibility checks are very lightweight and only run when widgets are bei
 This plugin works with classic widgets. For block-based widget areas, the visibility controls appear in the widget settings.
 
 ## Changelog
+
+### 1.1.3 (2026-02-07)
+- Fix: Category visibility type safety — cast `get_ancestors()` results to int for reliable strict comparison
+- i18n: Complete internationalization of admin JS by replacing hardcoded English labels with `wvdData.i18n.*` references
+- i18n: Add missing rule type translation keys (Front Page, Blog, Archive, Search, 404, Single Post, Logged In, Logged Out, Select a post type, Configured)
+- Security: Remove unimplemented `taxonomy` and `author` from allowed rule types whitelist
+- Updated translation template (.pot) with new strings
 
 ### 1.1.2 (2025-01-27)
 - Security: Replaced json_encode with wp_json_encode for better WordPress compatibility
