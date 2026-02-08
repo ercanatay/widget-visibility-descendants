@@ -19,3 +19,8 @@
 **Vulnerability:** Potential logic failure in visibility checks if `get_ancestors()` returns strings instead of integers, causing `in_array(..., true)` to fail.
 **Learning:** Even if WordPress functions typically return integers, plugins or filters might alter them. Strict type checking requires explicit casting to ensure robustness.
 **Prevention:** Always use `array_map('intval', ...)` on ID arrays retrieved from external sources (like `get_ancestors`) before performing strict comparison checks.
+
+## 2026-02-07 - Defensive Object Checks for WP Functions
+**Vulnerability:** Potential PHP warnings/fatal errors and information leakage when `get_queried_object()` returns null or `get_category()` returns `WP_Error`.
+**Learning:** WordPress core functions often return multiple types (object/null/error) depending on context. Assuming an object return type is risky, especially when interacting with external plugins or during deletions.
+**Prevention:** Always verify object type (`instanceof WP_Term` or `!is_wp_error()`) before accessing properties on return values from WP core functions.

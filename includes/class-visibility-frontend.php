@@ -178,6 +178,11 @@ class WVD_Visibility_Frontend {
         if (is_category()) {
             $current_cat = get_queried_object();
 
+            // Security: Ensure valid term object to prevent property access on non-objects
+            if (!($current_cat instanceof WP_Term)) {
+                return false;
+            }
+
             // Exact match
             if ($current_cat->term_id === $cat_id) {
                 return true;
@@ -216,7 +221,8 @@ class WVD_Visibility_Frontend {
 
                     if ($include_children) {
                         $cat = get_category($post_cat_id);
-                        if ($cat && intval($cat->parent) === $cat_id) {
+                        // Security: Check for WP_Error and ensure object validity
+                        if ($cat && !is_wp_error($cat) && intval($cat->parent) === $cat_id) {
                             return true;
                         }
                     }
