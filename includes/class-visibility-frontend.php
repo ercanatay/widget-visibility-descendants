@@ -179,7 +179,7 @@ class WVD_Visibility_Frontend {
             $current_cat = get_queried_object();
 
             // Security: Ensure valid term object to prevent property access on non-objects
-            if (!$current_cat instanceof WP_Term) {
+            if (!($current_cat instanceof WP_Term)) {
                 return false;
             }
 
