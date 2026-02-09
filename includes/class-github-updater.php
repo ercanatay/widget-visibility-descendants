@@ -377,9 +377,10 @@ class WVD_GitHub_Updater {
         }
 
         $request = $this->request_releases();
-        if (empty($request)) {
-            return [];
-        }
+        // Sentinel: Implement negative caching for API failures (DoS prevention)
+        // If request failed or returned empty, cache the failure for 15 minutes to prevent hammering the API.
+        // Otherwise, cache success for the standard TTL (1 hour).
+        $ttl = empty($request) ? 15 * MINUTE_IN_SECONDS : self::RELEASE_CACHE_TTL;
 
         set_site_transient(
             self::RELEASE_CACHE_KEY,
@@ -387,9 +388,8 @@ class WVD_GitHub_Updater {
                 'releases' => $request,
                 'fetched_at' => time(),
             ],
-            self::RELEASE_CACHE_TTL
+            $ttl
         );
-
         return $request;
     }
 
