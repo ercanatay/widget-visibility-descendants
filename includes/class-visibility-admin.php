@@ -372,10 +372,18 @@ class WVD_Visibility_Admin {
         }
 
         if (isset($new_instance['wvd_visibility'])) {
-            $data = $new_instance['wvd_visibility'];
-            if (is_string($data)) {
-                $data = json_decode(wp_unslash($data), true);
+            $raw_data = $new_instance['wvd_visibility'];
+            $data = [];
+
+            // Security: Strictly enforce JSON string format.
+            // Reject arrays (unexpected input) to prevent bypassing wp_unslash.
+            if (is_string($raw_data)) {
+                $decoded = json_decode(wp_unslash($raw_data), true, 10);
+                if (json_last_error() === JSON_ERROR_NONE) {
+                    $data = $decoded;
+                }
             }
+
             $instance['wvd_visibility'] = $this->sanitize_visibility_data($data);
         }
         return $instance;
