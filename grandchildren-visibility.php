@@ -10,8 +10,9 @@
  * @wordpress-plugin
  * Plugin Name:       Widget Visibility with Descendants
  * Plugin URI:        https://github.com/ercanatay/widget-visibility-descendants
+ * Update URI:        https://github.com/ercanatay/widget-visibility-descendants
  * Description:       Control widget visibility based on pages, posts, categories with full descendant (grandchildren) support. A Jetpack-free alternative that includes ALL levels of nested pages.
- * Version:           1.3.3
+ * Version:           1.4.0
  * Requires at least: 5.2
  * Requires PHP:      7.4
  * Author:            Ercan ATAY
@@ -28,7 +29,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Plugin constants
-define('WVD_VERSION', '1.3.3');
+define('WVD_VERSION', '1.4.0');
 define('WVD_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('WVD_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('WVD_PLUGIN_BASENAME', plugin_basename(__FILE__));
@@ -78,6 +79,8 @@ final class Widget_Visibility_Descendants {
     private function load_dependencies() {
         require_once WVD_PLUGIN_DIR . 'includes/class-visibility-admin.php';
         require_once WVD_PLUGIN_DIR . 'includes/class-visibility-frontend.php';
+        require_once WVD_PLUGIN_DIR . 'includes/class-updater-settings.php';
+        require_once WVD_PLUGIN_DIR . 'includes/class-github-updater.php';
     }
 
     /**
@@ -89,11 +92,19 @@ final class Widget_Visibility_Descendants {
         // Load translations
         add_action('plugins_loaded', array($this, 'load_textdomain'));
 
-        // Initialize admin and data handling
+        // Initialize data handling hooks (must also run for REST widget updates).
         new WVD_Visibility_Admin();
+
+        // Initialize settings UI only for wp-admin requests.
+        if (is_admin()) {
+            new WVD_Updater_Settings();
+        }
 
         // Initialize frontend
         new WVD_Visibility_Frontend();
+
+        // Initialize GitHub updater for admin and cron-based update checks.
+        new WVD_GitHub_Updater();
     }
 
     /**
@@ -125,6 +136,13 @@ add_action('plugins_loaded', 'wvd_init');
  * @since 1.0.0
  */
 register_activation_hook(__FILE__, function() {
+    if (false === get_option('wvd_updater_settings', false)) {
+        add_option('wvd_updater_settings', [
+            'enabled' => true,
+            'channel' => 'stable',
+        ]);
+    }
+
     // Flush rewrite rules if needed
     flush_rewrite_rules();
 });

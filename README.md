@@ -4,7 +4,7 @@
 **Tags:** widget, visibility, descendants, grandchildren, pages
 **Requires at least:** 5.2
 **Tested up to:** 6.9
-**Stable tag:** 1.3.3
+**Stable tag:** 1.4.0
 **Requires PHP:** 7.4
 **License:** GPLv2 or later
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
@@ -44,6 +44,7 @@ This plugin adds an **"Include all descendants"** option that includes ALL level
 - 👥 **User role targeting** (any selected role)
 - 👤 **User state**: Logged in / Logged out
 - 🔗 **Multiple conditions** with AND/OR logic
+- 🔄 **GitHub auto updates** with stable/beta channels
 - 🚀 **Jetpack-free** - no dependencies
 - 🌍 **30 languages included**
 - 🔒 **Secure** - follows WordPress coding standards
@@ -113,6 +114,17 @@ git clone https://github.com/ercanatay/widget-visibility-descendants.git
 | Logged In | User is logged in |
 | Logged Out | User is not logged in |
 
+### GitHub Auto Update Channel
+
+1. Go to **Settings → Widget Visibility Updates**
+2. Enable **GitHub updates**
+3. Choose update channel:
+   - **Stable (recommended):** only non-prerelease GitHub releases
+   - **Beta:** includes prerelease GitHub releases
+4. Save changes
+
+The plugin then uses WordPress native update checks to detect and install newer GitHub versions.
+
 ## Screenshots
 
 ### Visibility Panel
@@ -148,6 +160,14 @@ No. The visibility checks are very lightweight and only run when widgets are bei
 This plugin works with classic widgets. For block-based widget areas, the visibility controls appear in the widget settings.
 
 ## Changelog
+
+### 1.4.0 (2026-02-09)
+- Feature: Added GitHub updater integration using WordPress native plugin update flow.
+- Feature: Added settings page at **Settings → Widget Visibility Updates**.
+- Feature: Added update channel control (`stable` / `beta`) with default `stable`.
+- Enhancement: Added plugin row **Update Settings** quick link in Plugins screen.
+- Enhancement: Added package source normalization during upgrade to ensure correct plugin folder replacement.
+- Maintenance: Added updater cache cleanup after settings changes and successful plugin upgrades.
 
 ### 1.3.3 (2026-02-08)
 - Fix: Removed hidden tracked development artifact at `.jules/sentinel.md` to avoid hidden-file check warnings.
