@@ -4,7 +4,7 @@
 **Tags:** widget, visibility, descendants, grandchildren, pages
 **Requires at least:** 5.2
 **Tested up to:** 6.9
-**Stable tag:** 1.4.3
+**Stable tag:** 1.4.4
 **Requires PHP:** 7.4
 **License:** GPLv2 or later
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
@@ -148,6 +148,12 @@ No. The visibility checks are very lightweight and only run when widgets are bei
 This plugin works with classic widgets. For block-based widget areas, the visibility controls appear in the widget settings.
 
 ## Changelog
+
+### 1.4.4 (2026-02-10)
+- Performance: Eliminated N+1 admin queries in page/category option generation by using lookup maps for parent-child detection.
+- Stability: Prevented duplicate admin panel event handlers by namespacing jQuery bindings and unbinding old handlers before re-render.
+- Hardening: Strengthened frontend rule validation with `absint()` guards and post type existence checks.
+- Cleanup: Removed unnecessary rewrite-rule flush hooks and obsolete textdomain-loading stub.
 
 ### 1.4.3 (2026-02-10)
 - Accessibility: Converted visibility panel action controls (`Remove`, `Add condition`, `Delete`) from anchor tags to semantic `button` elements.
