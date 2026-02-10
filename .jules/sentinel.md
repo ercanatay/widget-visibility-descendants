@@ -7,8 +7,3 @@
 **Vulnerability:** Uncached API failures led to potential DoS if the GitHub API was down or rate-limited, as every admin page load would retry the request.
 **Learning:** Negative caching is critical for external dependencies to prevent cascading failures and resource exhaustion.
 **Prevention:** Implement backoff caching (short TTL) for failed or empty API responses.
-
-## 2026-02-11 - Defensive Widget Instance Handling
-**Vulnerability:** Widget `save_visibility_settings` and `filter_widget_display` callbacks assumed `$instance` was always an array. If another plugin or corrupted data passed a scalar (e.g., `true` or string), accessing array offsets caused PHP Fatal Errors (DoS).
-**Learning:** In loosely typed systems like WordPress hooks, never assume input types. Type juggling or unexpected filter interactions can pass invalid data to your callbacks.
-**Prevention:** Explicitly validate input types (`!is_array($instance)`) at the start of public methods or hooks before accessing data structures. Fail safe by returning the original input unmodified.
