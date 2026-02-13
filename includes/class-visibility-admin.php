@@ -355,6 +355,11 @@ class WVD_Visibility_Admin {
      * Render visibility UI in widget form
      */
     public function render_visibility_ui($widget, $return, $instance) {
+        // Security: Only render UI for users who can manage widgets
+        if (!current_user_can('edit_theme_options')) {
+            return;
+        }
+
         $visibility = isset($instance['wvd_visibility']) ? $instance['wvd_visibility'] : [];
         $widget_id = $widget->id;
         ?>
@@ -393,6 +398,10 @@ class WVD_Visibility_Admin {
 
         // Security: Verify user has permission to manage widgets
         if (!current_user_can('edit_theme_options')) {
+            // Restore old visibility settings if present to prevent data loss
+            if (isset($old_instance['wvd_visibility'])) {
+                $instance['wvd_visibility'] = $old_instance['wvd_visibility'];
+            }
             return $instance;
         }
 
