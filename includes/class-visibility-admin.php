@@ -58,38 +58,38 @@ class WVD_Visibility_Admin {
             'taxonomyTerms' => $this->get_taxonomy_terms($taxonomies),
             'roles' => $this->get_user_roles(),
             'i18n' => [
-                'visibility' => __('Visibility', 'widget-visibility-descendants-main'),
-                'show' => __('Show', 'widget-visibility-descendants-main'),
-                'hide' => __('Hide', 'widget-visibility-descendants-main'),
-                'if' => __('if', 'widget-visibility-descendants-main'),
-                'is' => __('is', 'widget-visibility-descendants-main'),
-                'page' => __('Page', 'widget-visibility-descendants-main'),
-                'category' => __('Category', 'widget-visibility-descendants-main'),
-                'postType' => __('Post Type', 'widget-visibility-descendants-main'),
-                'taxonomy' => __('Taxonomy', 'widget-visibility-descendants-main'),
-                'userRole' => __('User Role', 'widget-visibility-descendants-main'),
-                'frontPage' => __('Front Page', 'widget-visibility-descendants-main'),
-                'blog' => __('Blog', 'widget-visibility-descendants-main'),
-                'archive' => __('Archive', 'widget-visibility-descendants-main'),
-                'search' => __('Search', 'widget-visibility-descendants-main'),
-                'notFound' => __('404', 'widget-visibility-descendants-main'),
-                'single' => __('Single Post', 'widget-visibility-descendants-main'),
-                'loggedIn' => __('Logged In', 'widget-visibility-descendants-main'),
-                'loggedOut' => __('Logged Out', 'widget-visibility-descendants-main'),
-                'selectPostType' => __('Select a post type...', 'widget-visibility-descendants-main'),
-                'selectTaxonomy' => __('Select a taxonomy...', 'widget-visibility-descendants-main'),
-                'selectTerm' => __('Select a term...', 'widget-visibility-descendants-main'),
-                'selectRoles' => __('Select one or more roles...', 'widget-visibility-descendants-main'),
-                'configured' => __('Configured', 'widget-visibility-descendants-main'),
-                'includeChildren' => __('Include children', 'widget-visibility-descendants-main'),
-                'includeDescendants' => __('Include all descendants', 'widget-visibility-descendants-main'),
-                'matchAll' => __('Match all conditions', 'widget-visibility-descendants-main'),
-                'addCondition' => __('Add condition', 'widget-visibility-descendants-main'),
-                'remove' => __('Remove', 'widget-visibility-descendants-main'),
-                'done' => __('Done', 'widget-visibility-descendants-main'),
-                'delete' => __('Delete', 'widget-visibility-descendants-main'),
-                'selectPage' => __('Select a page...', 'widget-visibility-descendants-main'),
-                'selectCategory' => __('Select a category...', 'widget-visibility-descendants-main'),
+                'visibility' => __('Visibility', 'cybokron-descendant-visibility-widgets'),
+                'show' => __('Show', 'cybokron-descendant-visibility-widgets'),
+                'hide' => __('Hide', 'cybokron-descendant-visibility-widgets'),
+                'if' => __('if', 'cybokron-descendant-visibility-widgets'),
+                'is' => __('is', 'cybokron-descendant-visibility-widgets'),
+                'page' => __('Page', 'cybokron-descendant-visibility-widgets'),
+                'category' => __('Category', 'cybokron-descendant-visibility-widgets'),
+                'postType' => __('Post Type', 'cybokron-descendant-visibility-widgets'),
+                'taxonomy' => __('Taxonomy', 'cybokron-descendant-visibility-widgets'),
+                'userRole' => __('User Role', 'cybokron-descendant-visibility-widgets'),
+                'frontPage' => __('Front Page', 'cybokron-descendant-visibility-widgets'),
+                'blog' => __('Blog', 'cybokron-descendant-visibility-widgets'),
+                'archive' => __('Archive', 'cybokron-descendant-visibility-widgets'),
+                'search' => __('Search', 'cybokron-descendant-visibility-widgets'),
+                'notFound' => __('404', 'cybokron-descendant-visibility-widgets'),
+                'single' => __('Single Post', 'cybokron-descendant-visibility-widgets'),
+                'loggedIn' => __('Logged In', 'cybokron-descendant-visibility-widgets'),
+                'loggedOut' => __('Logged Out', 'cybokron-descendant-visibility-widgets'),
+                'selectPostType' => __('Select a post type...', 'cybokron-descendant-visibility-widgets'),
+                'selectTaxonomy' => __('Select a taxonomy...', 'cybokron-descendant-visibility-widgets'),
+                'selectTerm' => __('Select a term...', 'cybokron-descendant-visibility-widgets'),
+                'selectRoles' => __('Select one or more roles...', 'cybokron-descendant-visibility-widgets'),
+                'configured' => __('Configured', 'cybokron-descendant-visibility-widgets'),
+                'includeChildren' => __('Include children', 'cybokron-descendant-visibility-widgets'),
+                'includeDescendants' => __('Include all descendants', 'cybokron-descendant-visibility-widgets'),
+                'matchAll' => __('Match all conditions', 'cybokron-descendant-visibility-widgets'),
+                'addCondition' => __('Add condition', 'cybokron-descendant-visibility-widgets'),
+                'remove' => __('Remove', 'cybokron-descendant-visibility-widgets'),
+                'done' => __('Done', 'cybokron-descendant-visibility-widgets'),
+                'delete' => __('Delete', 'cybokron-descendant-visibility-widgets'),
+                'selectPage' => __('Select a page...', 'cybokron-descendant-visibility-widgets'),
+                'selectCategory' => __('Select a category...', 'cybokron-descendant-visibility-widgets'),
             ]
         ]);
     }
@@ -366,10 +366,10 @@ class WVD_Visibility_Admin {
         <div class="wvd-visibility-wrapper" data-widget-id="<?php echo esc_attr($widget_id); ?>">
             <p class="wvd-visibility-toggle">
                 <button type="button" class="button wvd-visibility-button">
-                    <?php esc_html_e('Visibility', 'widget-visibility-descendants-main'); ?>
+                    <?php esc_html_e('Visibility', 'cybokron-descendant-visibility-widgets'); ?>
                 </button>
                 <?php if (!empty($visibility['rules'])): ?>
-                    <span class="wvd-visibility-status wvd-has-rules"><?php esc_html_e('Configured', 'widget-visibility-descendants-main'); ?></span>
+                    <span class="wvd-visibility-status wvd-has-rules"><?php esc_html_e('Configured', 'cybokron-descendant-visibility-widgets'); ?></span>
                 <?php endif; ?>
             </p>
 

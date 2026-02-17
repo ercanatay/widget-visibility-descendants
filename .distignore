@@ -1,0 +1,16 @@
+.git
+.github
+.gitignore
+.jules
+.Jules
+.editorconfig
+tests
+scripts
+node_modules
+composer.json
+composer.lock
+package.json
+package-lock.json
+README.md
+phpunit.xml
+.phpcs.xml
