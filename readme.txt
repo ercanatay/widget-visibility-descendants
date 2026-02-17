@@ -3,7 +3,7 @@ Contributors: cybokron
 Tags: widget, visibility, descendants, grandchildren, pages
 Requires at least: 5.2
 Tested up to: 6.9
-Stable tag: 1.5.0
+Stable tag: 1.5.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -68,6 +68,12 @@ This plugin works with classic widgets. For block-based widget areas, the visibi
 
 == Changelog ==
 
+= 1.5.1 =
+* Fixed: Text domain aligned to WordPress.org assigned slug `widget-visibility-with-descendants`.
+* Fixed: Renamed main plugin file to match WordPress.org slug.
+* Fixed: Removed `.distignore` from distribution package.
+* Changed: Translation file names updated to match new text domain.
+
 = 1.5.0 =
 * WordPress.org submission release.
 * Changed: Renamed plugin slug and main file to `cybokron-descendant-visibility-widgets`.
@@ -128,6 +134,9 @@ This plugin works with classic widgets. For block-based widget areas, the visibi
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.5.1 =
+Text domain and plugin file aligned to WordPress.org assigned slug.
 
 = 1.5.0 =
 WordPress.org submission release with aligned plugin slug, text domain, and distribution packaging.

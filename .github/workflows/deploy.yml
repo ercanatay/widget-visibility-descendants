@@ -30,8 +30,8 @@ jobs:
 
       - name: Version consistency check
         run: |
-          HEADER_VER=$(grep -oP "Version:\s*\K[0-9.]+" cybokron-descendant-visibility-widgets.php | head -1)
-          CONST_VER=$(grep -oP "WVD_VERSION',\s*'\K[0-9.]+" cybokron-descendant-visibility-widgets.php)
+          HEADER_VER=$(grep -oP "Version:\s*\K[0-9.]+" widget-visibility-with-descendants.php | head -1)
+          CONST_VER=$(grep -oP "WVD_VERSION',\s*'\K[0-9.]+" widget-visibility-with-descendants.php)
           README_VER=$(grep -oP "Stable tag:\s*\K[0-9.]+" readme.txt)
 
           echo "Plugin header:  $HEADER_VER"
@@ -51,7 +51,7 @@ jobs:
 
       - name: Text domain check
         run: |
-          SLUG="cybokron-descendant-visibility-widgets"
+          SLUG="widget-visibility-with-descendants"
           FAIL=0
 
           BAD=$(grep -rn --include='*.php' -E "(__\(|_e\(|esc_html__\(|esc_html_e\(|esc_attr__\(|esc_attr_e\()" . \
@@ -70,7 +70,7 @@ jobs:
             fi
           fi
 
-          HEADER_DOMAIN=$(grep -oP "Text Domain:\s*\K.*" cybokron-descendant-visibility-widgets.php | tr -d '[:space:]')
+          HEADER_DOMAIN=$(grep -oP "Text Domain:\s*\K.*" widget-visibility-with-descendants.php | tr -d '[:space:]')
           if [ "$HEADER_DOMAIN" != "$SLUG" ]; then
             echo "::error::Plugin header Text Domain ($HEADER_DOMAIN) != expected ($SLUG)"
             FAIL=1
@@ -176,4 +176,4 @@ jobs:
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          SLUG: cybokron-descendant-visibility-widgets
+          SLUG: widget-visibility-with-descendants

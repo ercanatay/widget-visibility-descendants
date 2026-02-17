@@ -11,14 +11,14 @@
  * Plugin Name:       Widget Visibility with Descendants
  * Plugin URI:        https://github.com/ercanatay/cybokron-descendant-visibility-widgets
  * Description:       Control widget visibility based on pages, posts, categories with full descendant (grandchildren) support. A Jetpack-free alternative that includes ALL levels of nested pages.
- * Version:           1.5.0
+ * Version:           1.5.1
  * Requires at least: 5.2
  * Requires PHP:      7.4
  * Author:            Ercan ATAY
  * Author URI:        https://www.ercanatay.com/en/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       cybokron-descendant-visibility-widgets
+ * Text Domain:       widget-visibility-with-descendants
  * Domain Path:       /languages
  */
 
@@ -28,7 +28,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Plugin constants
-define('WVD_VERSION', '1.5.0');
+define('WVD_VERSION', '1.5.1');
 define('WVD_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('WVD_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('WVD_PLUGIN_BASENAME', plugin_basename(__FILE__));
