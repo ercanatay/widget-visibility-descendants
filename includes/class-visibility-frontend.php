@@ -33,6 +33,12 @@ class WVD_Visibility_Frontend {
      * Filter widget display based on visibility rules
      */
     public function filter_widget_display($instance, $widget, $args) {
+        // Global bypass: skip all visibility rules when enabled
+        $settings = get_option('wvd_settings', []);
+        if (!empty($settings['global_bypass'])) {
+            return $instance;
+        }
+
         // No instance or no visibility rules
         if (!is_array($instance) || empty($instance['wvd_visibility']['rules'])) {
             return $instance;

@@ -2,13 +2,13 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Cybokron Advanced Widget Visibility 1.6.1\n"
+"Project-Id-Version: Cybokron Advanced Widget Visibility 1.7.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ercanatay/cybokron-advanced-widget-visibility/issues\n"
-"POT-Creation-Date: 2026-02-09 00:00:00+00:00\n"
+"POT-Creation-Date: 2026-02-18 00:00:00+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-02-09 00:00:00+00:00\n"
+"PO-Revision-Date: 2026-02-18 00:00:00+00:00\n"
 "Last-Translator: Ercan ATAY\n"
 "Language-Team: Ercan ATAY\n"
 
@@ -140,52 +140,61 @@ msgstr ""
 msgid "Configured"
 msgstr ""
 
-#: includes/class-updater-settings.php
-msgid "Widget Visibility Updates"
+#: includes/class-admin-page.php
+msgid "Widget Visibility"
 msgstr ""
 
-#: includes/class-updater-settings.php
-msgid "Update Settings"
+#: includes/class-admin-page.php
+msgid "Settings"
 msgstr ""
 
-#: includes/class-updater-settings.php
-msgid "Installed version: %s"
+#: includes/class-admin-page.php
+msgid "Global Bypass"
 msgstr ""
 
-#: includes/class-updater-settings.php
-msgid "Enable GitHub updates"
+#: includes/class-admin-page.php
+msgid "Maximum Rules Per Widget"
 msgstr ""
 
-#: includes/class-updater-settings.php
-msgid "Check GitHub releases and deliver updates through WordPress updater."
+#: includes/class-admin-page.php
+msgid "Uninstall"
 msgstr ""
 
-#: includes/class-updater-settings.php
-msgid "Update channel"
+#: includes/class-admin-page.php
+msgid "Temporarily disable all visibility rules"
 msgstr ""
 
-#: includes/class-updater-settings.php
-msgid "Stable (recommended)"
+#: includes/class-admin-page.php
+msgid "All rules are ignored and widgets are shown everywhere. Useful for debugging."
 msgstr ""
 
-#: includes/class-updater-settings.php
-msgid "Beta (includes prereleases)"
+#: includes/class-admin-page.php
+msgid "Maximum number of visibility rules allowed per widget."
 msgstr ""
 
-#: includes/class-updater-settings.php
-msgid "Choose which GitHub releases are eligible for updates."
+#: includes/class-admin-page.php
+msgid "Delete visibility data when plugin is uninstalled"
 msgstr ""
 
-#: includes/class-github-updater.php
-msgid "No release notes available."
+#: includes/class-admin-page.php
+msgid "Warning: This action cannot be undone."
 msgstr ""
 
-#: includes/class-github-updater.php
-msgid "Control widget visibility based on pages, posts, categories with full descendant support."
+#: includes/class-admin-page.php
+#, php-format
+msgid "Version %s"
 msgstr ""
 
-#: includes/class-github-updater.php
-msgid "Could not prepare the GitHub update package for installation."
+#: includes/class-admin-page.php
+msgid "Quick Links"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Manage Widgets"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Support"
 msgstr ""
 
 #: includes/class-admin-page.php

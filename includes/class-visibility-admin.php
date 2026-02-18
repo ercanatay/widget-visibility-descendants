@@ -442,8 +442,10 @@ class WVD_Visibility_Admin {
             'taxonomy', 'user_role',
         ];
 
-        // Maximum number of rules to prevent DoS
-        $max_rules = 50;
+        // Maximum number of rules — read from settings or default to 50
+        $settings = get_option('wvd_settings', []);
+        $max_rules = isset($settings['max_rules']) ? absint($settings['max_rules']) : 50;
+        $max_rules = max(1, min(200, $max_rules));
 
         // Maximum value length to prevent database bloat
         $max_value_length = 100;

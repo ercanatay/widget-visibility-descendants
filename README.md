@@ -4,7 +4,7 @@
 **Tags:** widget, visibility, descendants, grandchildren, pages
 **Requires at least:** 5.2
 **Tested up to:** 6.9
-**Stable tag:** 1.6.1
+**Stable tag:** 1.7.0
 **Requires PHP:** 7.4
 **License:** GPLv2 or later
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
@@ -148,6 +148,15 @@ No. The visibility checks are very lightweight and only run when widgets are bei
 This plugin works with classic widgets. For block-based widget areas, the visibility controls appear in the widget settings.
 
 ## Changelog
+
+### 1.7.0 (2026-02-18)
+- Feature: Added dedicated settings page with dashicons-visibility sidebar icon.
+- Feature: Global bypass toggle to temporarily disable all visibility rules for debugging.
+- Feature: Configurable maximum rules per widget (1-200, default 50).
+- Feature: Option to delete all visibility data when plugin is uninstalled.
+- Feature: Colored application icon displayed on settings page header.
+- Enhancement: Quick links to Widgets page and GitHub support.
+- Changed: Sidebar icon now uses WordPress dashicon instead of base64 PNG.
 
 ### 1.6.1 (2026-02-18)
 - Added: Admin menu page with custom sidebar icon for quick access to plugin info.
