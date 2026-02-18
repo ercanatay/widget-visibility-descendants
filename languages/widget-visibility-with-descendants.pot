@@ -2,7 +2,7 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Cybokron Advanced Widget Visibility 1.6.0\n"
+"Project-Id-Version: Cybokron Advanced Widget Visibility 1.6.1\n"
 "Report-Msgid-Bugs-To: https://github.com/ercanatay/cybokron-advanced-widget-visibility/issues\n"
 "POT-Creation-Date: 2026-02-09 00:00:00+00:00\n"
 "MIME-Version: 1.0\n"
@@ -186,4 +186,68 @@ msgstr ""
 
 #: includes/class-github-updater.php
 msgid "Could not prepare the GitHub update package for installation."
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Widget Visibility"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Cybokron Advanced Widget Visibility"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Version %s"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Getting Started"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Go to %s"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Appearance &rarr; Widgets"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Edit any widget and click the \"Visibility\" button"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Choose Show or Hide, select conditions, and save"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Features"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Page visibility with full descendant support"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Category visibility with hierarchy support"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Hierarchical custom taxonomy visibility"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Post type, special pages, and user state conditions"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Multiple conditions with AND/OR logic"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "User role targeting"
+msgstr ""
+
+#: includes/class-admin-page.php
+msgid "Go to Widgets"
 msgstr ""
